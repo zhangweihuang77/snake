@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+<body>
+	<div class="mainbody">
+		<div class="text">
+			<span>↑：上</span>
+			<span>↓：下</span>
+			<span>←：左</span>
+			<span>→：右</span>
+		</div>
+		<div class="score">
+			<span>
+				得分： <i id="score">0</i>
+			</span>
+		</div>
+	<script type="text/javascript">
+		var  longness =25;
+		document.writeln("<table>");
+		for (var y = 0; y <  longness; y++) {
+			document.writeln("<tr>");
+			for (var x = 0; x <  longness; x++) {
+				document.writeln("<td id='x"+x+"y"+y+"'></td>");
+			}
+			document.writeln("</tr>");
+		}
+		document.writeln("</table>");
+	</script>
+	</div>
+	<script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+	<script type="text/javascript" src="js/snake.js"></script>
+</body>
+</html>

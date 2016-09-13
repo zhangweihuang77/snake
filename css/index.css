@@ -1,0 +1,9 @@
+*{margin:0;padding:0;}
+body{background: #ccc;}
+table{margin:0 auto;border:1px #000 solid;background: #fff;border-spacing:0;border-collapse:collapse;}
+td{width:12px;height:12px;border:1px #000 solid;}
+span{display: block;}
+.mainbody{position: relative;width:1000px;margin:0 auto;margin-top:10%;}
+.text{position: absolute;right:200px;top:190px;}
+.score{position: absolute;top:80px;right:190px;font-size: 32px;}
+.score i{vertical-align:-1px;}
